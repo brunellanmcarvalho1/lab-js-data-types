@@ -24,11 +24,11 @@ const part2 = "script";
 const newPart1 = part1.slice(0, -1) + part1.slice(-1).toUpperCase();
 const newPart2 = part2.slice(0, -1) + part2.slice(-1).toUpperCase();
 
-constcamelTail = newPart1 + newPart2;
+const camelTail = newPart1 + newPart2;
 
 // Print the cameLtaiL-formatted string
 
-console.log(constcamelTail);
+console.log(camelTail);
 
 /*******************************************
     Iteration 2.1 | Calculate Tip
@@ -48,7 +48,7 @@ console.log(tipAmount);
 
 // Generate a random integer between 1 and 10 (inclusive)
 
-randomNumber = Math.floor(Math.random() * 10) + 1;
+const randomNumber = Math.floor(Math.random() * 10) + 1;
 
 // Print the generated random number
 console.log(randomNumber);
